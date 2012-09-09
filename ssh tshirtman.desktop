@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=tshirtman.fr
+Comment=Login to my server
+Exec=gnome-terminal --disable-factory --sm-client-disable --class=newtshirtmanfr -x ssh -t gaby@pub.tshirtman.fr
+StartupWMClass=newtshirtmanfr
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=vinagre
+StartupNotify=true

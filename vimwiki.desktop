@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Terminal
+Exec=gnome-terminal --working-directory=vimwiki/ --disable-factory --sm-client-disable --class=Wiki -x vim index.wiki
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/icons/hicolor/48x48/mimetypes/application-x-note.png
+StartupNotify=true
+StartupWMClass=Wiki
+X-Ayatana-Desktop-Shortcuts=
+
+Name[fr_FR]=vim personnal wiki

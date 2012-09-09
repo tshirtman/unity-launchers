@@ -1,0 +1,28 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Terminal
+Exec=gnome-terminal --disable-factory --sm-client-disable --class=Dev 
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/icons/hicolor/scalable/apps/ibus-setup.svg
+StartupNotify=true
+StartupWMClass=Dev
+X-Ayatana-Desktop-Shortcuts=Usf;BPMN;
+
+Name[fr_FR]=Dev Terminal
+
+[Usf Shortcut Group]
+Name=dev usf
+Exec=gnome-terminal --working-directory=ultimate-smash-friends/ --disable-factory --sm-client-disable --class=Dev -x vim -S
+TargetEnvironment=Unity
+StartupWMClass=Dev
+
+[BPMN Shortcut Group]
+Name=dev bpmn
+Exec=gnome-terminal --working-directory=bpmn/ --disable-factory --sm-client-disable --class=Dev -x vim -S
+TargetEnvironment=Unity
+StartupWMClass=Dev
+
